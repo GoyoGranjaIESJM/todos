@@ -1,3 +1,2 @@
-<ul *ngFor="let todo of todos"> 
-    <li>{{todo.title}}</li>
-</ul>
+<app-todo-items *ngFor="let todo of todos" [todo]="todo"> 
+</app-todo-items>
